@@ -1,0 +1,683 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?1xfc2p");
+  src: url("../fonts/icomoon.eot?1xfc2p#iefix") format("../embedded-opentype"),
+    url("../fonts/icomoon.ttf?1xfc2p") format("truetype"), url("../fonts/icomoon.woff?1xfc2p") format("woff"),
+    url("../fonts/icomoon.svg?1xfc2p#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e900";
+}
+
+.icon-checkmark:before {
+  content: "\e901";
+  color: #fff;
+}
+
+.icon-facebook:before {
+  content: "\e902";
+}
+
+.icon-instagram:before {
+  content: "\e903";
+}
+
+.icon-pineapple_logo:before {
+  content: "\e904";
+  color: #4066a5;
+}
+
+.icon-pineapple_text:before {
+  content: "\e905";
+}
+
+.icon-twitter:before {
+  content: "\e906";
+}
+
+.icon-youtube:before {
+  content: "\e907";
+}
+
+body {
+  height: 100vh;
+  min-height: 1080px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.container {
+  min-width: 680px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f5fa));
+  background: linear-gradient(180deg, #ffffff 0%, #f2f5fa 100%);
+}
+
+.header {
+  height: 140px;
+  width: 100%;
+}
+
+.header .top_bar {
+  width: 480px;
+  height: 40px;
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+}
+
+.header .top_bar .pineapple_logo {
+  position: relative;
+  top: 1px;
+  font-size: 40px;
+}
+
+.header .top_bar .pineapple_text {
+  position: relative;
+  font-size: 16px;
+  bottom: 2px;
+  left: 11px;
+}
+
+.header .top_bar ul {
+  position: absolute;
+  right: 1px;
+  bottom: 0;
+  display: inline-block;
+}
+
+.header .top_bar ul li.header_link {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+
+.header .top_bar ul li.header_link a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #6a707b;
+  margin-left: 26px;
+  text-decoration: none;
+}
+
+.content {
+  margin: 234px 0 auto 140px;
+  width: 400px;
+}
+
+.content h1 {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #131821;
+  margin-bottom: 16px;
+}
+
+.content h2 {
+  font-size: 16px;
+  line-height: 28px;
+  color: #6a707b;
+}
+
+.content.success {
+  margin-top: 129px;
+}
+
+.content.success .icon-cup {
+  height: 70px;
+}
+
+.content.success h1 {
+  margin-top: 27px;
+  margin-bottom: 20px;
+}
+
+.content .subscribe {
+  margin-top: 49px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.content .subscribe form {
+  height: 100%;
+  width: 100%;
+}
+
+.content .subscribe .input {
+  position: relative;
+  right: 40px;
+  width: 663px;
+  height: 70px;
+  background: #ffffff;
+  border: 1px solid #e3e3e4;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.content .subscribe .input_line {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  width: 4px;
+  height: 70px;
+  background: #4066a5;
+}
+
+.content .subscribe .input:hover {
+  border: 1px solid #4066a5;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+  box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+.content .subscribe .input:hover #email_btn span.icon-arrow {
+  color: #4066a5;
+  opacity: 1;
+}
+
+.content .subscribe .input:focus-within {
+  border: 1px solid #e3e3e4;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+  box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+.content .subscribe .input:focus-within #email_btn span.icon-arrow {
+  color: #131821;
+  opacity: 0.3;
+}
+
+.content .subscribe .input #email {
+  position: relative;
+  top: 1px;
+  margin-left: 41px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6a707b;
+  border: none;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.content .subscribe .input #email_btn {
+  margin-right: 40px;
+  margin-left: 19px;
+  border: none;
+  background: none;
+  padding: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.content .subscribe .input #email_btn:hover {
+  cursor: pointer;
+}
+
+.content .subscribe .input #email_btn .icon-arrow {
+  font-size: 14px;
+  color: #131821;
+  opacity: 0.3;
+}
+
+.content .subscribe .input label[for="email_btn"] {
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  width: 83px;
+  height: 100%;
+}
+
+.content .subscribe .tos {
+  position: relative;
+  top: 1px;
+  padding-top: 26px;
+}
+
+.content .subscribe .tos .icon-checkmark {
+  font-size: 11px;
+  position: absolute;
+  top: 34px;
+  left: 6px;
+  cursor: pointer;
+}
+
+.content .subscribe .tos input#tos {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: #ffffff;
+  border: 1px solid #e3e3e4;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.content .subscribe .tos input#tos:hover {
+  cursor: pointer;
+}
+
+.content .subscribe .tos input#tos:checked {
+  background: #4066a5;
+  border: none;
+}
+
+.content .subscribe .tos p {
+  position: relative;
+  left: 41px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6a707b;
+}
+
+.content .subscribe .tos p a {
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration: underline;
+  text-underline-offset: 1px;
+  color: #131821;
+}
+
+.content .subscribe .tos p a:hover {
+  color: #4066a5;
+}
+
+.content .subscribe .tos p a:active {
+  color: #233759;
+}
+
+.content .line {
+  margin-top: 50px;
+  width: 400px;
+  height: 1px;
+  background: #e3e3e4;
+}
+
+.content .social {
+  margin-top: 50px;
+}
+
+.content .social ul {
+  width: 244px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.content .social_link {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  border: 2px solid #e2e3e4;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.content .social_link a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+
+.content .social_link a span {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin: 0 auto;
+  color: #131821;
+  opacity: 0.3;
+}
+
+.content .social_link.facebook .icon-facebook {
+  font-size: 16px;
+}
+
+.content .social_link.facebook:hover {
+  background-color: #4267b2;
+  border: none;
+}
+
+.content .social_link.facebook:hover .icon-facebook {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.content .social_link.facebook:active {
+  background-color: #2f4a80;
+  border: none;
+}
+
+.content .social_link.facebook:active .icon-facebook {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.content .social_link.instagram .icon-instagram {
+  font-size: 16px;
+}
+
+.content .social_link.instagram:hover {
+  background-color: #c13584;
+  border: none;
+}
+
+.content .social_link.instagram:hover .icon-instagram {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.content .social_link.instagram:active {
+  background-color: #8f2762;
+  border: none;
+}
+
+.content .social_link.instagram:active .icon-instagram {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.content .social_link.twitter .icon-twitter {
+  font-size: 13px;
+}
+
+.content .social_link.twitter:hover {
+  background-color: #1da1f2;
+  border: none;
+}
+
+.content .social_link.twitter:hover .icon-twitter {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.content .social_link.twitter:active {
+  background-color: #177fbf;
+  border: none;
+}
+
+.content .social_link.twitter:active .icon-twitter {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.content .social_link.youtube .icon-youtube {
+  font-size: 11px;
+  position: relative;
+}
+
+.content .social_link.youtube:hover {
+  background-color: #ff0000;
+  border: none;
+}
+
+.content .social_link.youtube:hover .icon-youtube {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.content .social_link.youtube:active {
+  background-color: #cc0000;
+  border: none;
+}
+
+.content .social_link.youtube:active .icon-youtube {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.bg {
+  background: #c4c4c4;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bg img {
+  height: 100%;
+  min-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100vw;
+    min-width: 320px;
+    min-height: 320px;
+    position: relative;
+  }
+  .wrapper {
+    width: 100%;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .container {
+    position: relative;
+    top: 33px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-width: 320px;
+    z-index: 1;
+    margin: 0 20px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+  .header {
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 66px;
+    width: 100vw;
+    min-width: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .header .top_bar {
+    top: 0;
+    margin: 0 20px;
+    width: 100%;
+  }
+  .header .top_bar .pineapple_logo {
+    position: relative;
+    top: -3px;
+  }
+  .header .top_bar .pineapple_text {
+    display: none;
+  }
+  .header .top_bar ul {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .header .top_bar ul li.header_link {
+    position: relative;
+    top: 0;
+    right: 1px;
+  }
+  .header .top_bar ul li.header_link a {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 20px;
+  }
+  .content {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 30px 20px;
+  }
+  .content.success {
+    margin-top: 30px;
+  }
+  .content.success h1 {
+    margin-top: 36px;
+    margin-bottom: 10px;
+  }
+  .content.success .line {
+    margin-top: 39px;
+  }
+  .content h1 {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 20px 0 10px;
+  }
+  .content h2 {
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0 0 20px;
+  }
+  .content .subscribe {
+    margin-top: 20px;
+  }
+  .content .subscribe form .input {
+    height: 60px;
+    right: 0;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .content .subscribe form .input_line {
+    height: 60px;
+  }
+  .content .subscribe form .input #email {
+    position: relative;
+    top: 1px;
+    margin-left: 16px;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+  }
+  .content .subscribe form .input #email_btn {
+    position: relative;
+    top: 1px;
+    margin-right: 14px;
+    margin-left: 10px;
+  }
+  .content .subscribe form .input label[for="email_btn"] {
+    width: 38px;
+  }
+  .content .subscribe form .tos {
+    padding-top: 10px;
+  }
+  .content .subscribe form .tos .icon-checkmark {
+    top: 18px;
+  }
+  .content .line {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .content .social {
+    margin: 20px 48px 20px 33px;
+  }
+  .content .social ul {
+    width: 100%;
+    min-width: 214px;
+  }
+  .content .social ul li .icon-twitter {
+    position: relative;
+    top: 1px;
+  }
+  .bg {
+    position: absolute;
+    top: 66px;
+    height: calc(100vh - 66px);
+  }
+  .bg img {
+    -o-object-position: -281px 0;
+    object-position: -281px 0;
+    min-width: calc(100% + 281px);
+  }
+}
