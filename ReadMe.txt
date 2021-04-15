@@ -4,7 +4,7 @@ Each solution has its folder with all the necessary files in it.
 
 To run each solution locally :
 	1.	download the repository (Magebit_Rinards);
-	2.	add the repository to the root folder of the local server (htdocs);
+	2.	add the repository to the root folder of the local server (htdocs or www);
 After doing so start your local server and enter the following URL:
 
 For task 1: http://localhost:PORT*/Magebit_Rinards/TASK_1/
